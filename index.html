@@ -1,93 +1,101 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Resume</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Rukaiya Islam Ruku</h1>
-            <p>Web Developer | Software Engineer | Tech Enthusiast</p>
-        </header>
+  <div class="mode-toggle">
+    <button id="toggleMode">Toggle Dark Mode</button>
+  </div>
 
-        <section class="contact">
-            <h2>Contact</h2>
-            <p>Email: ruku@example.com</p>
-            <p>Phone: +880-1234-567890</p>
-            <p>Location: Dhaka, Bangladesh</p>
-        </section>
+  <div class="container">
+    <header>
+      <h1>Tonoya Ruku</h1>
+      <p>Web Developer | Software Engineer | Tech Enthusiast</p>
+    </header>
 
-        <section class="objective">
-            <h2>Career Objective</h2>
-            <p>
-                To obtain a challenging position in a reputed organization where I can learn new skills,
-                expand my knowledge, and leverage my learnings.
-            </p>
-        </section>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: ruku@example.com</p>
+      <p>Phone: +880-1234-567890</p>
+      <p>Location: Dhaka, Bangladesh</p>
+    </section>
 
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React.js, Node.js</li>
-                <li>Database: MySQL, MongoDB</li>
-                <li>Git, GitHub</li>
-            </ul>
-        </section>
+    <section class="objective toggle-section">
+      <h2>Career Objective</h2>
+      <p>
+        To obtain a challenging position in a reputed organization where I can learn new skills,
+        expand my knowledge, and leverage my learnings.
+      </p>
+    </section>
 
-        <section class="languages">
-            <h2>Language Skills</h2>
-            <ul>
-                <li>English – Fluent</li>
-                <li>Bengali – Native</li>
-                <li>Hindi – Conversational</li>
-            </ul>
-        </section>
+    <section class="skills toggle-section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React.js, Node.js</li>
+        <li>Database: MySQL, MongoDB</li>
+        <li>Git, GitHub</li>
+      </ul>
+    </section>
 
-        <section class="experience">
-            <h2>Experience</h2>
-            <h3>Frontend Developer – Tech Innovators</h3>
-            <p>Jan 2023 – Present</p>
-            <ul>
-                <li>Developed responsive UI using HTML, CSS, JavaScript</li>
-                <li>Collaborated with designers to create intuitive UX</li>
-            </ul>
-        </section>
+    <section class="languages toggle-section">
+      <h2>Language Skills</h2>
+      <ul>
+        <li>English – Fluent</li>
+        <li>Bengali – Native</li>
+        <li>Hindi – Conversational</li>
+      </ul>
+    </section>
 
-        <section class="education">
-            <h2>Educational Qualification</h2>
-            <ul>
-                <li>B.Sc in Computer Science – Dhaka International University/ 2022-ongoing</li>
-                <li>HSC – BCIC College/2019- 2021</li>
-                <li>SSC – Ideal School/2009- 2019</li> 
-            </ul>
-        </section>
+    <section class="experience toggle-section">
+      <h2>Experience</h2>
+      <h3>Frontend Developer – Tech Innovators</h3>
+      <p>Jan 2023 – Present</p>
+      <ul>
+        <li>Developed responsive UI using HTML, CSS, JavaScript</li>
+        <li>Collaborated with designers to create intuitive UX</li>
+      </ul>
+    </section>
 
-        <section class="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Portfolio Website:</strong> Built using HTML, CSS, JS</li>
-                <li><strong>Task Manager App:</strong> React + Firebase</li>
-                <li><strong>Blog CMS:</strong> Node.js + MongoDB</li>
-            </ul>
-        </section>
+    <section class="education toggle-section">
+      <h2>Educational Qualification</h2>
+      <ul>
+        <li>B.Sc in Computer Science – University of London, 2023</li>
+        <li>HSC – Dhaka College, 2019</li>
+        <li>SSC – Ideal School, 2017</li>
+      </ul>
+    </section>
 
-        <section class="references">
-            <h2>References</h2>
-            <ul>
-                <li>Mr. Arafat Hossain – Professor, University of London</li>
-                <li>Ms. Nusrat Jahan – Team Lead, Tech Innovators</li>
-            </ul>
-        </section>
+    <section class="projects toggle-section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> Built using HTML, CSS, JS</li>
+        <li><strong>Task Manager App:</strong> React + Firebase</li>
+        <li><strong>Blog CMS:</strong> Node.js + MongoDB</li>
+      </ul>
+    </section>
 
-        <footer>
-            <button onclick="printCV()">Print Resume</button>
-        </footer>
-    </div>
+    <section class="references toggle-section">
+      <h2>References</h2>
+      <ul>
+        <li>Mr. Arafat Hossain – Professor, University of London</li>
+        <li>Ms. Nusrat Jahan – Team Lead, Tech Innovators</li>
+      </ul>
+    </section>
 
-    <script src="script.js"></script>
+    <footer>
+      <button onclick="printCV()">Print Resume</button>
+    </footer>
+  </div>
+
+  <button id="scrollTopBtn">↑</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
+

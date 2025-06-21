@@ -1,70 +1,38 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', sans-serif;
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
-body {
-    background: #f4f4f4;
-    color: #333;
-    padding: 20px;
+body.dark-mode .container {
+  background-color: #1e1e1e;
+  box-shadow: none;
 }
 
-.container {
-    max-width: 800px;
-    margin: auto;
-    background: #fff;
-    padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.mode-toggle {
+  text-align: right;
+  padding: 10px;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 30px;
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  display: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-header h1 {
-    font-size: 2.5em;
-    color: #222;
+.toggle-section {
+  transition: all 0.3s ease;
 }
 
-header p {
-    font-size: 1.2em;
-    color: #666;
-}
-
-section {
-    margin-bottom: 25px;
-}
-
-section h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style: square;
-    padding-left: 20px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 30px;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #2980b9;
+.toggle-section.collapsed {
+  display: none;
 }
