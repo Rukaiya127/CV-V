@@ -68,3 +68,16 @@ button {
 button:hover {
     background: #2980b9;
 }
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
