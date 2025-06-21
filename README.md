@@ -1,7 +1,11 @@
-Portfolio of Rukaiya Islam Ruku
-Batch-72th
-Roll-38
-Varsity-DIU
+Portfolio of Rukaiya Islam Ruku 
+
+Batch-72th 
+
+Roll-38 
+
+Varsity-DIU 
+
 
 
 Github Live Server Link :
