@@ -1,6 +1,13 @@
 function printCV() {
   window.print();
 }
+function printCV() {
+    window.print();
+}
+function printCV() {
+    window.print();
+}
+
 
 document.getElementById('toggleMode').addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
